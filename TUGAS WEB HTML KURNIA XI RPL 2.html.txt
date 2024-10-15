@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pemrograman Berorientasi Objek</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f4f8;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        main {
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #1abc9c;
+        }
+        h2 {
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            color: #34495e;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        table, th, td {
+            border: 1px solid #bdc3c7;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        td {
+            background-color: #ecf0f1;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #2c3e50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tugas Pemrograman Berorientasi Objek</h1>
+    </header>
+    <main>
+        <h2>Esai Sejarah PBO</h2>
+        <p>Pemrograman Berorientasi Objek (PBO) adalah paradigma pemrograman yang mengorganisasikan perangkat lunak ke dalam objek-objek yang berinteraksi. Konsep ini pertama kali muncul pada tahun 1960-an dengan penelitian oleh Ole-Johan Dahl dan Kristen Nygaard di Norwegia. Mereka menciptakan bahasa pemrograman bernama Simula, yang dianggap sebagai bahasa pertama yang mendukung konsep PBO.</p>
+        <p>Simula memperkenalkan konsep dasar dari objek dan kelas. Objek adalah entitas mandiri yang menggabungkan data dan perilaku, sementara kelas adalah template atau cetak biru untuk membuat objek. Konsep ini memungkinkan pengembang untuk merancang sistem perangkat lunak yang lebih modular dan dapat digunakan kembali.</p>
+        <p>Simula menjadi bahasa pemrograman pertama yang secara eksplisit mendukung PBO. Walaupun pada awalnya digunakan untuk simulasi, konsep ini segera diadopsi oleh bahasa pemrograman lain untuk mengelola kompleksitas dalam pengembangan perangkat lunak.</p>
+        <p>Smalltalk, dikembangkan pada tahun 1970-an oleh Alan Kay dan tim di Xerox PARC, adalah bahasa pemrograman yang secara penuh mengadopsi paradigma PBO. Smalltalk tidak hanya mendefinisikan objek dan kelas, tetapi juga menyertakan lingkungan pengembangan terpadu yang sangat interaktif, yang mempermudah eksperimen dan pengujian konsep PBO.</p>
+        <p>Pada tahun 1980-an, C++ dikembangkan oleh Bjarne Stroustrup sebagai perluasan dari bahasa C. C++ memperkenalkan PBO ke dalam komunitas pengembang yang sudah terbiasa dengan C, sehingga membantu menyebarluaskan konsep ini secara luas. C++ memungkinkan pengembang untuk menulis kode yang efisien dan berorientasi objek, yang sangat penting untuk pengembangan perangkat lunak skala besar.</p>
+        <p>Pada pertengahan 1990-an, Java muncul sebagai bahasa pemrograman yang dirancang untuk portabilitas dan keamanan, serta mendukung penuh PBO. Java mempopulerkan konsep PBO di kalangan pengembang perangkat lunak komersial dan perusahaan, berkat kemampuan “write once, run anywhere” yang sangat sesuai untuk aplikasi web dan enterprise.</p>
+        <p>PBO telah mengubah cara perangkat lunak dikembangkan dan dipelihara. Dengan menggunakan objek dan kelas, pengembang dapat membuat sistem yang modular dan mudah dikelola. Reusabilitas kode meningkat, karena kelas dan objek dapat digunakan kembali dalam berbagai bagian dari aplikasi atau dalam proyek lain. Ini juga memungkinkan pengembangan perangkat lunak yang lebih mudah diubah dan diperluas, karena perubahan dalam satu objek tidak mempengaruhi seluruh sistem secara drastis.</p>
+        <p>Selain itu, PBO memfasilitasi pengembangan tim, karena setiap anggota tim dapat fokus pada bagian tertentu dari sistem tanpa perlu memahami keseluruhan kode. Ini mengurangi kompleksitas dan meningkatkan produktivitas.</p>
+        <p>Secara keseluruhan, PBO telah menjadi fondasi bagi banyak bahasa pemrograman modern dan telah membawa perubahan signifikan dalam cara perangkat lunak dirancang, dikembangkan, dan dipelihara.</p>
+
+        <h2>Perbedaan Pemrograman Prosedural dan PBO</h2>
+        <table>
+            <tr>
+                <th>Aspek</th>
+                <th>Pemrograman Prosedural</th>
+                <th>Pemrograman Berorientasi Objek</th>
+            </tr>
+            <tr>
+                <td>Struktur Program</td>
+                <td>Terorganisir dalam fungsi/prosedur</td>
+                <td>Terorganisir dalam objek dan kelas</td>
+            </tr>
+            <tr>
+                <td>Pendekatan</td>
+                <td>Berfokus pada urutan instruksi</td>
+                <td>Berfokus pada entitas yang menggabungkan data dan perilaku</td>
+            </tr>
+            <tr>
+                <td>Kelebihan</td>
+                <td>Mudah dipahami dan diimplementasikan</td>
+                <td>Modular, dapat digunakan kembali, dan mudah dipelihara</td>
+            </tr>
+            <tr>
+                <td>Contoh Bahasa</td>
+                <td>C, Pascal, Fortran</td>
+                <td>Java, C++, Python, Ruby</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
